@@ -1,0 +1,37 @@
+{
+  "name": "@ad-forms/antd",
+  "version": "0.0.1",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "tags": [
+  "ant-design",
+  "antd",
+  "ui-library",
+  "react",
+  "react-components",
+  "forms",
+  "ui",
+  "typescript",
+  "design-system",
+  "dayjs",
+  "frontend",
+  "form-controls",
+  "component-library",
+  "ad-forms",
+  "from-builder"
+],
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "antd": "^5.0.0"
+  },
+  "devDependencies": {
+    "dayjs": "^1.11.0"
+  },
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js"
+    }
+  }
+}
