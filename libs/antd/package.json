@@ -1,6 +1,6 @@
 {
   "name": "@ad-forms/antd",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./index.js",
   "types": "./index.d.ts",
   "tags": [
@@ -28,10 +28,28 @@
   "devDependencies": {
     "dayjs": "^1.11.0"
   },
+  "dependencies": {
+    "@ad-forms/core": "^0.0.4"
+  },
   "exports": {
     ".": {
       "import": "./index.mjs",
-      "require": "./index.js"
+      "require": "./index.js",
+      "types": "./index.d.ts"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andissanayake/ad-forms.git"
+  },
+  "author": {
+    "name": "Akalanka Dissanayake",
+    "email": "akalanka.n.dissanayake@gmail.com",
+    "url": "https://github.com/andissanayake"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/andissanayake/ad-forms/blob/master/README.md",
+  "publishConfig": {
+    "access": "public"
   }
 }
