@@ -1,14 +1,12 @@
-import {
-  Input,
-  InputNumber,
-  Select,
-  Checkbox,
-  DatePicker,
-  Radio,
-  Slider,
-  TimePicker,
-} from 'antd';
-import 'antd/dist/reset.css';
+import Input from 'antd/es/input';
+import InputNumber from 'antd/es/input-number';
+import Select from 'antd/es/select';
+import Checkbox from 'antd/es/checkbox';
+import DatePicker from 'antd/es/date-picker';
+import Radio from 'antd/es/radio';
+import Slider from 'antd/es/slider';
+import TimePicker from 'antd/es/time-picker';
+
 import { BasicFormControls, UIComponents } from '@ad-forms/core';
 import dayjs from 'dayjs';
 

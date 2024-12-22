@@ -1,7 +1,7 @@
 {
   "name": "@ad-forms/core",
   "description": "A lightweight and flexible form management library for React, providing dynamic rendering, validation, and state handling.",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "./index.js",
   "types": "./index.d.ts",
   "exports": {

@@ -1,6 +1,6 @@
 {
   "name": "@ad-forms/antd",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "./index.js",
   "types": "./index.d.ts",
   "tags": [
@@ -23,13 +23,11 @@
   "peerDependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "antd": "^5.0.0"
-  },
-  "devDependencies": {
+    "antd": "^5.0.0",
     "dayjs": "^1.11.0"
   },
   "dependencies": {
-    "@ad-forms/core": "^0.0.4"
+    "@ad-forms/core": "^0.0.5"
   },
   "exports": {
     ".": {

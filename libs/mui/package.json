@@ -6,7 +6,47 @@
   "exports": {
     ".": {
       "import": "./index.mjs",
-      "require": "./index.js"
+      "require": "./index.js",
+      "types": "./index.d.ts"
     }
+  },
+  "tags": [
+    "mui",
+    "ui-library",
+    "react",
+    "react-components",
+    "forms",
+    "ui",
+    "typescript",
+    "design-system",
+    "dayjs",
+    "frontend",
+    "form-controls",
+    "component-library",
+    "ad-forms",
+    "from-builder"
+  ],
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "antd": "^5.0.0",
+    "dayjs": "^1.11.0"
+  },
+  "dependencies": {
+    "@ad-forms/core": "^0.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andissanayake/ad-forms.git"
+  },
+  "author": {
+    "name": "Akalanka Dissanayake",
+    "email": "akalanka.n.dissanayake@gmail.com",
+    "url": "https://github.com/andissanayake"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/andissanayake/ad-forms/blob/master/README.md",
+  "publishConfig": {
+    "access": "public"
   }
 }

@@ -35,7 +35,6 @@ const MyForm = () => {
         label: 'Text Field',
         config: {
           placeholder: 'Enter text',
-          maxLength: 10,
           type: 'password',
         },
         wrapperClassName: 'ui-forms-grid-item-3',
